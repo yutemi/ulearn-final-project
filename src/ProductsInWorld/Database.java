@@ -52,7 +52,7 @@ public class Database {
                     throw new RuntimeException(e);
                 }
             });
-// Выполняем запрос
+
             statement.execute();
         } catch (SQLException e) {
             e.printStackTrace();
