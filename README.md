@@ -11,4 +11,4 @@
 
 
 данные из консоли:
-  ![Снимок экрана 2023-01-07 063619](https://user-images.githubusercontent.com/69854750/211129815-ac2718ea-c5ea-422f-a732-148797ebaee0.png)
+![Снимок экрана 2023-01-07 063619](https://user-images.githubusercontent.com/69854750/211129815-ac2718ea-c5ea-422f-a732-148797ebaee0.png)
