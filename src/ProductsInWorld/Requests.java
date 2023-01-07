@@ -26,10 +26,10 @@ public class Requests {
         Database.ConnectToDB(sqlPath);
 
         ResultSet resultsFromDB = Database.sttm.executeQuery("select country from salesofproducts where (region = 'Europe' or region = 'Asia') order by totalprofit desc");
-        String str = String.format("ответ на второе задание: %s", resultsFromDB.getString(1));
+        String result = String.format("ответ на второе задание: %s", resultsFromDB.getString(1));
 
         Database.Disconnect();
-        return str;
+        return result;
     }
 
     public static String thirdTask(String sqlPath) throws SQLException, ClassNotFoundException {
@@ -37,10 +37,10 @@ public class Requests {
 
         ResultSet resultsFromDB = Database.sttm.executeQuery("select country from salesofproducts where (totalprofit >= 420000.0 and totalprofit <= 440000.0) " +
                 "and (region = 'Middle East and North Africa' or region = 'Sub-Saharan Africa') order by totalprofit desc");
-        String str = String.format("ответ на третье задание: %s", resultsFromDB.getString(1));
+        String result = String.format("ответ на третье задание: %s", resultsFromDB.getString(1));
 
         Database.Disconnect();
-        return str;
+        return result;
     }
 
 
