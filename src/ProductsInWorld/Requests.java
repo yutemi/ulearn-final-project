@@ -17,8 +17,6 @@ public class Requests {
         ChartFrame frame = new ChartFrame("Query Chart", chart);
         frame.setVisible(true);
         frame.setSize(800, 600);
-
-        Database.Disconnect();
     }
 
 
